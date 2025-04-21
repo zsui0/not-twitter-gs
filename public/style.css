@@ -1,0 +1,75 @@
+body, html{
+  height: auto;
+  padding: 5px;
+  background-image: linear-gradient(to bottom right, rgb(216, 91, 241),rgb(82, 232, 172), cyan);
+}
+
+
+form{
+  width: 600px;
+  margin: auto;
+  border-style: solid;
+  border-radius: 25px;
+  border-color: rgba(115, 114, 114, 0.911);
+  border-width: 3px;
+  padding: 10px;
+  background-color: white;
+}
+textarea{
+  height: 100px; 
+  resize: none;
+}
+button{
+  text-align: right;
+}
+
+.postContainer{
+  height: auto;
+  margin: auto;
+  margin-top: 10px;
+  width: 600px;
+
+  display: grid;
+  grid-template-columns: auto;
+}
+.post{
+  padding: 10px;
+  margin-top: 10px;
+
+  background-color: white;
+  border-style: solid;
+  border-radius: 25px;
+  border-color: rgba(115, 114, 114, 0.911);
+  border-width: 3px;
+
+  height: auto;
+  max-width: 600px;
+}
+.postFullName{
+  font-weight: bold;
+}
+.postName{
+  font-style: italic;
+  max-width: 600px;
+  word-wrap: break-word;
+
+  display: block;
+  margin-bottom: 20px;
+}
+.postText{
+  font-style: normal;
+
+  display: block;
+  margin-bottom: 10px;
+}
+.moreLessBtn{
+  position: relative;
+  float: right;
+}
+.more {
+  display: none;
+}
+.postDate{
+  position: relative;
+  float: right;
+}
